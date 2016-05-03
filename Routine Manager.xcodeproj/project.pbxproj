@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		5B3E8F4D1CD5644500895870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F4C1CD5644500895870 /* AppDelegate.swift */; };
-		5B3E8F4F1CD5644500895870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F4E1CD5644500895870 /* ViewController.swift */; };
 		5B3E8F521CD5644500895870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E8F501CD5644500895870 /* Main.storyboard */; };
 		5B3E8F541CD5644500895870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E8F531CD5644500895870 /* Assets.xcassets */; };
 		5B3E8F571CD5644500895870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E8F551CD5644500895870 /* LaunchScreen.storyboard */; };
+		5B3E8F5F1CD5677000895870 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F5E1CD5677000895870 /* Action.swift */; };
+		5B3E8F611CD567E400895870 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F601CD567E400895870 /* Routine.swift */; };
+		5B3E8F631CD5719D00895870 /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F621CD5719D00895870 /* ActionCell.swift */; };
+		5B3E8F651CD5728E00895870 /* NewRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F641CD5728E00895870 /* NewRoutineViewController.swift */; };
+		5B3E8F691CD5788600895870 /* NewActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F681CD5788600895870 /* NewActionViewController.swift */; };
+		5B3E8F6B1CD5C2A300895870 /* StartRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F6A1CD5C2A300895870 /* StartRoutineViewController.swift */; };
+		5B3E8F6D1CD5C2DB00895870 /* RoutineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F6C1CD5C2DB00895870 /* RoutineManager.swift */; };
+		5B3E8F6F1CD5C9CC00895870 /* DisplayRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F6E1CD5C9CC00895870 /* DisplayRoutineViewController.swift */; };
+		5B3E8F711CD5DB6900895870 /* RoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F701CD5DB6900895870 /* RoutineCell.swift */; };
+		5B3E8F731CD5E58F00895870 /* RunRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F721CD5E58F00895870 /* RunRoutineViewController.swift */; };
+		5B3E8F751CD60A9300895870 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F741CD60A9300895870 /* Util.swift */; };
+		5B3E8F771CD60C1C00895870 /* RoutineResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F761CD60C1C00895870 /* RoutineResults.swift */; };
+		5B3E8F791CD6106F00895870 /* ActionResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F781CD6106F00895870 /* ActionResultCell.swift */; };
+		5B3E8F7B1CD6124C00895870 /* RoutineResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E8F7A1CD6124C00895870 /* RoutineResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B3E8F491CD5644500895870 /* Routine Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Routine Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3E8F4C1CD5644500895870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B3E8F4E1CD5644500895870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B3E8F511CD5644500895870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B3E8F531CD5644500895870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3E8F561CD5644500895870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3E8F581CD5644500895870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3E8F5E1CD5677000895870 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		5B3E8F601CD567E400895870 /* Routine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		5B3E8F621CD5719D00895870 /* ActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
+		5B3E8F641CD5728E00895870 /* NewRoutineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRoutineViewController.swift; sourceTree = "<group>"; };
+		5B3E8F681CD5788600895870 /* NewActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewActionViewController.swift; sourceTree = "<group>"; };
+		5B3E8F6A1CD5C2A300895870 /* StartRoutineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartRoutineViewController.swift; sourceTree = "<group>"; };
+		5B3E8F6C1CD5C2DB00895870 /* RoutineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineManager.swift; sourceTree = "<group>"; };
+		5B3E8F6E1CD5C9CC00895870 /* DisplayRoutineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayRoutineViewController.swift; sourceTree = "<group>"; };
+		5B3E8F701CD5DB6900895870 /* RoutineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutineCell.swift; path = ../RoutineCell.swift; sourceTree = "<group>"; };
+		5B3E8F721CD5E58F00895870 /* RunRoutineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunRoutineViewController.swift; sourceTree = "<group>"; };
+		5B3E8F741CD60A9300895870 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		5B3E8F761CD60C1C00895870 /* RoutineResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineResults.swift; sourceTree = "<group>"; };
+		5B3E8F781CD6106F00895870 /* ActionResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionResultCell.swift; path = ../ActionResultCell.swift; sourceTree = "<group>"; };
+		5B3E8F7A1CD6124C00895870 /* RoutineResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutineResultsViewController.swift; path = ../RoutineResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +81,21 @@
 			isa = PBXGroup;
 			children = (
 				5B3E8F4C1CD5644500895870 /* AppDelegate.swift */,
-				5B3E8F4E1CD5644500895870 /* ViewController.swift */,
 				5B3E8F501CD5644500895870 /* Main.storyboard */,
+				5B3E8F721CD5E58F00895870 /* RunRoutineViewController.swift */,
+				5B3E8F6A1CD5C2A300895870 /* StartRoutineViewController.swift */,
+				5B3E8F641CD5728E00895870 /* NewRoutineViewController.swift */,
+				5B3E8F6E1CD5C9CC00895870 /* DisplayRoutineViewController.swift */,
+				5B3E8F681CD5788600895870 /* NewActionViewController.swift */,
+				5B3E8F7A1CD6124C00895870 /* RoutineResultsViewController.swift */,
+				5B3E8F741CD60A9300895870 /* Util.swift */,
+				5B3E8F621CD5719D00895870 /* ActionCell.swift */,
+				5B3E8F701CD5DB6900895870 /* RoutineCell.swift */,
+				5B3E8F781CD6106F00895870 /* ActionResultCell.swift */,
+				5B3E8F761CD60C1C00895870 /* RoutineResults.swift */,
+				5B3E8F6C1CD5C2DB00895870 /* RoutineManager.swift */,
+				5B3E8F601CD567E400895870 /* Routine.swift */,
+				5B3E8F5E1CD5677000895870 /* Action.swift */,
 				5B3E8F531CD5644500895870 /* Assets.xcassets */,
 				5B3E8F551CD5644500895870 /* LaunchScreen.storyboard */,
 				5B3E8F581CD5644500895870 /* Info.plist */,
@@ -136,8 +175,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3E8F4F1CD5644500895870 /* ViewController.swift in Sources */,
+				5B3E8F6D1CD5C2DB00895870 /* RoutineManager.swift in Sources */,
 				5B3E8F4D1CD5644500895870 /* AppDelegate.swift in Sources */,
+				5B3E8F791CD6106F00895870 /* ActionResultCell.swift in Sources */,
+				5B3E8F7B1CD6124C00895870 /* RoutineResultsViewController.swift in Sources */,
+				5B3E8F6F1CD5C9CC00895870 /* DisplayRoutineViewController.swift in Sources */,
+				5B3E8F691CD5788600895870 /* NewActionViewController.swift in Sources */,
+				5B3E8F731CD5E58F00895870 /* RunRoutineViewController.swift in Sources */,
+				5B3E8F711CD5DB6900895870 /* RoutineCell.swift in Sources */,
+				5B3E8F631CD5719D00895870 /* ActionCell.swift in Sources */,
+				5B3E8F751CD60A9300895870 /* Util.swift in Sources */,
+				5B3E8F771CD60C1C00895870 /* RoutineResults.swift in Sources */,
+				5B3E8F5F1CD5677000895870 /* Action.swift in Sources */,
+				5B3E8F6B1CD5C2A300895870 /* StartRoutineViewController.swift in Sources */,
+				5B3E8F611CD567E400895870 /* Routine.swift in Sources */,
+				5B3E8F651CD5728E00895870 /* NewRoutineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

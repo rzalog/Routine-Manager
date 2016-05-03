@@ -10,12 +10,25 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [.Sound, .Alert, .Badge], categories: nil))
+
+        
+        // create the objects everyone needs
+        let newRoutineManager = RoutineManager()
+        
+        // assign the new objects
+        let navController = window!.rootViewController as! UINavigationController
+        let startRoutineController = navController.topViewController as! StartRoutineViewController
+        
+        startRoutineController.routineManager = newRoutineManager
+        
         return true
     }
 
